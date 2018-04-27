@@ -30,6 +30,7 @@ class MyHandler(BaseHTTPRequestHandler):
         content = '''
         <html><head><title>Title goes here.</title></head>
         <body><p>This is a test.</p>
+        <p>It will be deployed at AWS Elastic beanstalk!!!</p>
         <p>You accessed path: {}</p>
         </body></html>
         '''.format(path)
